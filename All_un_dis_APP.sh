@@ -28,7 +28,7 @@ adb uninstall com.sony.drbd.reader.other.jp
 adb uninstall com.nttdocomo.android.cloudstorageservice
 adb uninstall com.felicanetworks.mfm.main
 adb uninstall com.amazon.kindle
-# 删除 Docomo 全家桶及没啥卵用的系统应用
+# 删除 Docomo 软件及服务
 adb shell pm uninstall --user 0 com.nttdocomo.android.areamail
 adb shell pm uninstall --user 0 com.sonyericsson.docomo.settings
 adb shell pm uninstall --user 0 com.nttdocomo.android.apnsw
@@ -91,5 +91,9 @@ adb shell pm uninstall --user 0 com.felicanetworks.mfc
 adb shell pm uninstall --user 0 com.ipg.gguide.dcm_app.android
 adb shell pm uninstall --user 0 jp.co.fsi.fs1seg
 adb shell pm uninstall --user 0 com.sonyericsson.home.res.overlay_305
-# What's New
+# “What's New”已停止服务
 adb shell pm uninstall --user 0 com.sonymobile.entrance
+# Docomo 的漏网之鱼
+adb shell pm uninstall --user 0 com.nttdocomo.android.osv.res.overlay_305
+adb shell pm uninstall --user 0 com.sonyericsson.android.servicemenu.product.res.overlay.docomo
+adb shell pm uninstall --user 0 com.sonymobile.superstamina.docomo.res.overlay
