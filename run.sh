@@ -43,7 +43,9 @@ else
         exit 0
     else
         if [[ "$model" == "" ]];then
-            echo "未识别该手机型号，回车以退出…"
+            echo "未识别出该手机型号，回车以退出…"
+            read
+            exit 0
         else
             echo "该手机非 SO-02J"
             echo "请勿使用此脚本"
