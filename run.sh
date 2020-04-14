@@ -48,7 +48,7 @@ else
             exit 0
         else
             echo "该手机非 SO-02J"
-            echo "请勿使用此脚本"
+            echo "请勿随意使用此脚本"
             echo "回车以退出…"
             read
             exit 0
